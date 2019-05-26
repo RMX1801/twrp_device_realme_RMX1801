@@ -38,3 +38,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=RMX1801 \
     BUILD_PRODUCT=RMX1801 \
     TARGET_DEVICE=RMX1801
+
+# HACK: Set vendor patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2099-12-31

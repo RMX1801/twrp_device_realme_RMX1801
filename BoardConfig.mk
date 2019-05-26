@@ -95,3 +95,6 @@ TW_USE_TOOLBOX := true
 # TWRP flags for notch
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
+
+# Hack: prevent anti rollback
+PLATFORM_SECURITY_PATCH := 2099-12-31
